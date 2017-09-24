@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.daffodilvarsity.diuinternationalaffairs.activity.AboutUsActivity">
+
+    <include layout="@layout/toolbar" android:id="@+id/toolbar"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developer Info"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="33dp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Amatul Aziz\nId:132-35-488\nBatch:11th
+\nDepartment of Software Engineering\nDaffodil International University" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="MD. Sorwar Hosen Mostafa\nId:132-35-484\nBatch:11th
+\nDepartment of Software Engineering\nDaffodil International University" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

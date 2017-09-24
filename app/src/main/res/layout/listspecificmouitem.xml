@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+
+    android:id="@+id/count_mou_root">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#aa000000"
+        android:padding="5dp"
+        android:layout_height="80dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="	University of Applied Sciences Upper Austria"
+                android:textStyle="bold|italic"
+                android:textSize="15sp"
+                android:id="@+id/mou_item_title"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/layout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="01"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:autoLink="web"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:text="www.cali.com"
+                android:id="@+id/mou_item_website" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:id="@+id/mou_item_title_country_flag"
+                android:scaleType="centerInside"
+                android:src="@drawable/flag_austria"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Austria"
+                android:textColor="@android:color/white"
+                android:id="@+id/mou_item_title_country_name"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_height="0dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

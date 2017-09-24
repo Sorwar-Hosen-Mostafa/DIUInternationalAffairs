@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.daffodilvarsity.diuinternationalaffairs.activity.AboutUsActivity">
+
+    <include layout="@layout/toolbar" android:id="@+id/toolbar"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="33dp"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="International Affairs\n Daffodil International University"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Info"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="33dp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="1. Professor Dr. Md. Fokhray Hossain\n
+Director, International Affairs\n
+Daffodil International University\n
+Email: international@daffodilvarsity.edu.bd\n
+Cell : +8801713493250\n
+Tel: +88 02 9138234-5 (Ext: 153)\n
+
+\n2. Amena Hasan Ana\n
+Special Assistant to Chairman, BoT\n
+( Business Development and International Affairs)\n
+Email: sa.bd@daffodilvarsity.edu.bd\n
+Cell : +8801713493264\n
+Tel: +88 02 9138234-5 (Ext: 234)\n
+
+\n3. Mr. Md. Maruf Chowdhury\n
+Sr. Administrative Officer (International Admission)\n
+Email: int.admission@daffodilvarsity.edu.bd,\n
+Cell : +8801847027527\n
+Tel: +88 02 9138234-5 (Ext: 237)\n
+
+\n4. Mr. Syed Raihan-Ul-Islam\n
+Administrative Officer\n
+International Affairs\n
+Daffodil International University\n
+Email: int@daffodilvarsity.edu.bd\n
+Cell: +8801811458865\n
+Tel: +88 02 9138234-5 (Ext: 153)\n" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

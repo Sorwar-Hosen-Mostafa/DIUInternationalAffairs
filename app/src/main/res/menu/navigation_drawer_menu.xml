@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:id="@+id/grp0" android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home_icon"
+            android:title="Home">option1
+        </item>
+    </group>
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/profile"
+            android:title="Profile">option1
+        </item>
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/MouUniList"
+            android:icon="@drawable/linkage"
+            android:title="International Linkage">option2
+        </item>
+    </group>
+    <group android:id="@+id/grp3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/AboutUs"
+            android:icon="@drawable/aboutus"
+            android:title="About Us">option3
+        </item>
+    </group>
+    <group android:id="@+id/grp4" android:checkableBehavior="single">
+        <item
+            android:id="@+id/DeveloperInfo"
+            android:icon="@drawable/developer"
+            android:title="Developer Info">option3
+        </item>
+    </group>
+
+
+
+
+
+
+
+
+</menu>

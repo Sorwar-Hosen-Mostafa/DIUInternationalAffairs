@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+
+    tools:context="com.daffodilvarsity.diuinternationalaffairs.activity.Profile">
+    <include layout="@layout/toolbar" android:id="@+id/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="230dp"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:src="@drawable/profile_pic_icon"
+            android:layout_gravity="center"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:background="#aaf"
+            android:layout_weight="0.05"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="6dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/profile"/>
+            <TextView
+                android:textColor="@android:color/black"
+            android:id="@+id/userfullnameTv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+                android:textSize="17sp"
+                android:gravity="center"
+            android:layout_weight="5"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:src="@drawable/id_icon"
+
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/useridTv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:layout_weight="5"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+
+                android:layout_height="match_parent"
+                android:src="@drawable/semester"
+                android:tint="@android:color/black"/>
+            <TextView
+                android:id="@+id/usersemordesigTv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:layout_weight="5"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="6dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/department"/>
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/userdepartmentTv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_weight="5"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/email_icon"
+                android:tint="@android:color/black"
+                />
+            <TextView
+                android:id="@+id/usermailTv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:layout_weight="5"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/phone_icon" />
+            <TextView
+                android:id="@+id/userphoneTv"
+                android:layout_width="0dp"
+                android:textColor="@android:color/black"
+                android:layout_height="match_parent"
+                android:textSize="17sp"
+                android:layout_weight="5"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

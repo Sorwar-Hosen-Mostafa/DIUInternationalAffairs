@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:padding="5dp"
+    android:background="@android:color/transparent"
+    android:id="@+id/count_item_root">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textStyle="bold|italic"
+            android:layout_alignParentTop="true"
+            android:background="#bb333333"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:text="Posted: 25-June-2017 at 08:30am"
+            android:id="@+id/Specific_Event_PostDateTime" />
+
+        <RelativeLayout
+            android:layout_below="@id/Specific_Event_PostDateTime"
+            android:layout_width="match_parent"
+            android:id="@+id/layout"
+            android:layout_height="130dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo"
+                android:id="@+id/Specific_Event_Image" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Summer Program"
+            android:background="#017AC0"
+            android:textColor="@android:color/white"
+            android:textStyle="bold|italic"
+            android:layout_above="@+id/Specific_Event_Deadline"
+            android:textSize="18sp"
+            android:id="@+id/Specific_Event_Title"
+            android:layout_below="@+id/layout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textStyle="bold|italic"
+            android:background="#119900"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:text="Dead Line: 25-June-2017"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/Specific_Event_Deadline" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

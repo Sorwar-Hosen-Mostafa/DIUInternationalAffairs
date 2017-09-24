@@ -1,0 +1,23 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipelayoutevent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.daffodilvarsity.diuinternationalaffairs.fragments.ExchangeProgram">
+
+    <android.support.v7.widget.RecyclerView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rec_list_events"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:clipToPadding="true"
+        android:scrollbars="vertical">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

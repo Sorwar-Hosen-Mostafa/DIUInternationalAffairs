@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">DIU International Affairs</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <array name="semester">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11th</item>
+        <item>12th</item>
+    </array>
+
+    <array name="department">
+        <item>Architecture</item>
+        <item>Business Administration</item>
+        <item>Civil Engineering</item>
+        <item>Commerce</item>
+        <item>Computer Science and Engineering</item>
+        <item>Development Studies</item>
+        <item>Environmental Science and Disaster Management</item>
+        <item>Electronics and Telecommunication Engineering</item>
+        <item>Electrical and Electronic Engineering</item>
+        <item>English</item>
+        <item>Entrepreneurship</item>
+        <item>General Educational Development</item>
+        <item>Journalism and Mass Communication</item>
+        <item>Law</item>
+        <item>Multimedia and Creative Technology (MCT)</item>
+        <item>Nutrition and Food Engineering</item>
+        <item>Pharmacy</item>
+        <item>Public Health</item>
+        <item>Real Estate</item>
+        <item>Software Engineering</item>
+        <item>Textile Engineering</item>
+        <item>Tourism and Hospitality Management</item>
+
+    </array>
+
+    <array name="designation">
+        <item>Lecturer</item>
+        <item>Senior Lecturer</item>
+        <item>Assistant Professor</item>
+        <item>Associate Professor and Associate Head</item>
+        <item>Associate Professor</item>
+        <item>Visiting Professor</item>
+        <item>Professor</item>
+        <item>Head</item>
+        <item>Associate Professor and Head</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

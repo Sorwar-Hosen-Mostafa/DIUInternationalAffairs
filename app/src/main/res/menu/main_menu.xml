@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fragment2"
+        android:icon="@mipmap/ic_launcher"
+        android:title="fragment2">option2
+    </item>
+    <item
+        android:id="@+id/fragment3"
+        android:icon="@mipmap/ic_launcher"
+        android:title="fragment3">option3
+    </item>
+    <item
+        android:id="@+id/fragment4"
+        android:icon="@mipmap/ic_launcher"
+        android:title="fragment4">option4
+    </item>
+
+
+</menu>

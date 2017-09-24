@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:background="@color/screen5">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provide some of your basic informations:"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:padding="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name :"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:padding="5dp"/>
+            <EditText
+                android:id="@+id/student_fullname_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:background="@drawable/my_button_bg"
+                android:inputType="text"
+                android:hint="ex: Md. Sorwar Hossain"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIU Id :"
+
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+            <EditText
+                android:id="@+id/student_id_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:padding="7dp"
+                android:background="@drawable/my_button_bg"
+                android:hint="ex: 132-35-484"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departmant :"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+            <Spinner
+                android:id="@+id/student_department_spinner"
+                android:layout_width="match_parent"
+                android:padding="7dp"
+                android:background="@drawable/my_button_bg"
+                android:layout_height="45dp"
+                android:entries="@array/department"></Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester :"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+            <Spinner
+                android:id="@+id/student_semester_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:padding="7dp"
+                android:background="@drawable/my_button_bg"
+                android:entries="@array/semester"></Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIU Email :"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+            <EditText
+                android:id="@+id/student_diuemail_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="ex: mostafasarwar21@diu.edu.bd"
+                android:padding="7dp"
+                android:background="@drawable/my_button_bg"
+                android:inputType="textEmailAddress"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+
+                android:textStyle="bold"
+                android:padding="5dp"/>
+            <EditText
+                android:id="@+id/student_phone_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="ex: 01628123123"
+                android:padding="7dp"
+                android:background="@drawable/my_button_bg"
+                android:inputType="phone"
+                />
+            <Button
+                android:onClick="Register"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_button_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Done"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:layout_height="match_parent"
+    tools:context="com.daffodilvarsity.diuinternationalaffairs.activity.EventDescriptionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/Eventimage"
+            android:layout_height="match_parent"
+            android:src="@drawable/pic1"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Donut Kings"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:id="@+id/eventtitle"
+            android:textStyle="bold|italic"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTintMode="add"
+            android:background="#bb017AC0"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/expand"
+            android:background="@android:color/transparent"
+            android:id="@+id/imageButton"
+            android:scaleType="fitXY"
+            android:layout_below="@id/eventtitle"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            />
+        <Button
+            android:id="@+id/instantApplybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:padding="7dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Instant Apply" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EventPostTimeAndDate"
+            android:text="Posted: 04-Mar-2017 at 08:17 am"
+            android:padding="5dp"
+            android:background="#bb333333"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="15sp"
+          />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/scrollview"
+            android:layout_below="@+id/EventPostTimeAndDate"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/Eventdescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="Collect your Entry Pass from office of International Affairs, DIU or Office of the Director of Students' Affairs. Hurry Up 👆 !!!
+
+THE DONUT KINGS will be performing LIVE 🎷🎸🎹🎙🎻🎼
+
+Daffodil International University। Ashulia Campus। on 21 March 2017 at @ 2:00PM..... Dont miss it !!!!"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+                android:textSize="17sp"
+
+                />
+
+        </ScrollView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DeadLine: 25-june-2017"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            android:paddingLeft="5dp"
+            android:background="#bb119900"
+            android:id="@+id/EventDeadline"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

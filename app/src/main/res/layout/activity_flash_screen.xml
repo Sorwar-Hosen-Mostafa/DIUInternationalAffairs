@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_flash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.daffodilvarsity.diuinternationalaffairs.activity.FlashScreenActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/diu_logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logoi"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/diu_text"
+        android:layout_below="@+id/diu_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIU International Affairs"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textSize="27sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/diu_tex3t"
+        android:layout_below="@+id/diu_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered by RJSOFT"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
